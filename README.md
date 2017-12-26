@@ -41,11 +41,11 @@ guldan proxy 使用glide进行依赖包的管理，所以还请安装[glide](htt
         print current version
 ```
 
-以下对比较重要的几个参数进行说明：
+以下对比较重要的几个参数进行说明：
 
 1. listen
 
-guldan_proxy要监听的本地地址，也就是它为本机进程提供服务的接口，其它的进程可以认为guldan的服务就在本机的这个端口，对它进行相关的guldan http操作。
+guldan_proxy要监听的本地地址，也就是它为本机进程提供服务的接口，其它的进程可以认为guldan的服务就在本机的这个端口，对它进行相关的guldan http操作。
 
 1. logConfig
 
@@ -53,7 +53,7 @@ guldan_proxy要监听的本地地址，也就是它为本机进程提供服务�
 
 1. proxy
 
-这个是guldan的服务地址，guldan_proxy最终会从这里拉取配置
+这个是guldan的服务地址，guldan_proxy最终会从这里拉取配置
 
 
 guldan_proxy使用的一个例子是：
@@ -61,7 +61,7 @@ guldan_proxy使用的一个例子是：
 ```
 ./guldan_proxy -logConfig configs/log.xml -listen 0.0.0.0:7888 -proxy http://your_guldan_domain:port
 ```
-
-上面的这个命令是说，guldan被部署在了`http://your_guldan_domain:port`这个地址，而guldan_proxy要监听本机的7888端口，guldan_proxy的日志配置在`configs/log.xml`。
+
+上面的这个命令是说，guldan被部署在了`http://your_guldan_domain:port`这个地址，而guldan_proxy要监听本机的7888端口，guldan_proxy的日志配置在`configs/log.xml`。
 
 当服务启动后，该操作系统上的进程只需要向本机的7888端口发送请求就可以了，guldan_proxy会自动做配置更新。
