@@ -1,0 +1,37 @@
+hash: 62672b4a5dfcde1b64f1008364c198377400a4b47f2d7d8e668db403dd0e711e
+updated: 2017-12-26T21:07:29.491581647+08:00
+imports:
+- name: github.com/cihub/seelog
+  version: d2c6e5aa9fbfdd1c624e140287063c7730654115
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: d459835d2b077e44f7c9b453505ee29881d5d12d
+  subpackages:
+  - binding
+  - render
+- name: github.com/golang/protobuf
+  version: 1e59b77b52bf8e4b449a57e6f79f21226d571845
+  subpackages:
+  - proto
+- name: github.com/mattn/go-isatty
+  version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
+- name: github.com/orcaman/concurrent-map
+  version: d4c23bd0e01134806215ffe65ba3fd22ec6721f7
+- name: github.com/TouchPal/guldan-go
+  version: 3158dcc99a2dc8d5c72060adc8169bac0da06bc2
+- name: github.com/TouchPal/guldan-go.git
+  version: 3158dcc99a2dc8d5c72060adc8169bac0da06bc2
+  subpackages:
+  - github.com/orcaman/concurrent-map
+- name: github.com/ugorji/go
+  version: 14c9063c18427f21537bc9da3d15cfb0ed3c61c0
+  subpackages:
+  - codec
+- name: golang.org/x/sys/unix
+  version: 13fcbd661c8ececa8807a29b48407d674b1d8ed8
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f57d2222ad794d0dffb07e664ea05e2ee07d60c
+- name: gopkg.in/yaml.v2
+  version: 287cf08546ab5e7e37d55a84f7ed3fd1db036de5
+testImports: []

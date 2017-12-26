@@ -1,0 +1,10 @@
+package: guldan-proxy
+import:
+- package: github.com/gin-gonic/gin
+  version: v1.2
+- package: github.com/TouchPal/guldan-go.git
+  version: v0.1.5
+  subpackages:
+  - github.com/orcaman/concurrent-map
+- package: github.com/cihub/seelog
+  version: v2.6

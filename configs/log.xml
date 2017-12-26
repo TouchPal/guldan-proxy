@@ -1,0 +1,10 @@
+<!-- https://github.com/cihub/seelog/wiki -->
+<seelog minlevel="info" type="sync">
+  <outputs formatid="main">
+    <console />
+  </outputs>
+  <formats>
+    <format id="main" format="%Date %Time [%File:%Line] [%LEVEL] %Msg%n"/>
+  </formats>
+</seelog>
+
